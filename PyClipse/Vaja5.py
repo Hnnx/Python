@@ -34,9 +34,10 @@ for stevilo in iteracija:
 #input
 #primerjamo lahko samo stevila! ( == za primitive,   .equals za object)
 
+#Logicni = OR  AND IS ISNOT
 vnos = input("Vnesi stevilo: ")
 st = int(vnos)
-if(st <= 100):
+if(st < 100 or st == 100):
     print("Vneseno steviko je manjse ali enako 100")
 else:
     print("Stevilo je vecjeod 100")
